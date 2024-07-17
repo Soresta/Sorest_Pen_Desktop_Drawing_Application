@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="700.0" style="-fx-background-color: rgba(255, 255, 255, 0);" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="s.pen.sorest_pen.HelloController">
+   <children>
+      <AnchorPane fx:id="myPane" layoutX="20.0" layoutY="70.0" prefHeight="466.0" prefWidth="40.0" style="-fx-background-color: Black;">
+         <children>
+            <ImageView fx:id="thePen" fitHeight="30.0" fitWidth="30.0" layoutX="5.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@myPen.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ColorPicker fx:id="renkSec" layoutX="6.0" layoutY="294.0" prefHeight="26.0" prefWidth="28.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></ColorPicker>
+            <ImageView fx:id="clearBtn" fitHeight="30.0" fitWidth="30.0" layoutX="5.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@eraser.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="clearBtn1" fitHeight="30.0" fitWidth="30.0" layoutX="6.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@text.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="clearBtn11" fitHeight="30.0" fitWidth="30.0" layoutX="6.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@shape.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="clearBtn112" fitHeight="30.0" fitWidth="30.0" layoutX="5.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@undo.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="clearBtn1121" fitHeight="30.0" fitWidth="30.0" layoutX="5.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@redo.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="clearBtn1111" fitHeight="30.0" fitWidth="30.0" layoutX="5.0" layoutY="427.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@trash.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <Slider fx:id="sizeSlider" layoutX="13.0" layoutY="329.0" orientation="VERTICAL" prefHeight="90.0" prefWidth="14.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Slider>
+            <ImageView fx:id="view" fitHeight="30.0" fitWidth="30.0" layoutX="6.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@eye.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children></AnchorPane>
+      <ImageView fx:id="myPen" fitHeight="40.0" fitWidth="40.0" onDragDone="#myPenClicked" pickOnBounds="true" preserveRatio="true" x="20.0" y="20.0">
+         <image>
+            <Image url="@pen.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Canvas fx:id="canvas" height="550.0" layoutX="68.0" width="632.0" />
+   </children>
+</AnchorPane>
