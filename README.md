@@ -4,10 +4,11 @@
 Sorest Pen, masaüstü ekranında yazı yazma, çizim yapma, çeşitli şekiller ekleme ve grafik ekleme gibi işlevleri destekleyen bir uygulamadır. Kullanıcılar, uygulama aracılığıyla ekran üzerinde serbestçe yazı yazabilir, çizim yapabilir ve çeşitli şekiller ekleyebilirler. Ayrıca, kalem boyutunu ve rengini seçme, yapılan çizimleri ve yazıları silme, grafikleri ekleme, gösterme ve gizleme gibi özellikleri de kullanabilirler.
 
 ## Ekran Görüntüleri
-![Ekran görüntüsü 2024-07-17 161401](https://github.com/user-attachments/assets/5299f243-4ab5-43ec-903c-6b71b774ea04)
 ![Ekran görüntüsü 2024-07-17 161657 - Kopya](https://github.com/user-attachments/assets/df3f9ba3-095c-4663-9b72-12f958d7b95a)
+![Ekran görüntüsü 2024-07-17 161401](https://github.com/user-attachments/assets/5299f243-4ab5-43ec-903c-6b71b774ea04)
 
-
+## Not: 
+-  Bu proje hala geliştirme aşamasındadır.
 ## Özellikler
 
 - **Arkaplana Yazma**: Masaüstü ekranında yazı yazma imkanı.
@@ -26,7 +27,8 @@ Sorest Pen is an application that supports writing, drawing, adding various shap
 ## Screen Shots
 ![Ekran görüntüsü 2024-07-17 161657 - Kopya](https://github.com/user-attachments/assets/f548fd9d-7081-41f9-a452-a1d44f3f1e3f)
 ![Ekran görüntüsü 2024-07-17 161401](https://github.com/user-attachments/assets/41e527c8-bcac-46cf-9f21-177853426125)
-
+## Note:
+- This project is still under development.
 ## Features
 
 - **Background Writing**: Allows writing on the desktop screen.
